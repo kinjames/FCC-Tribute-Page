@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#title{
+    text-align: center;
+    padding: 40px;
+}
+
+html, body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+h3{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+#main {
+    background-color: #EEEEEE;
+    margin: 25px 10px;
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    padding: 40px;
+}
+
+figure{
+    background-color: #fff;
+    width: 98%;
+    margin: 0 auto 0.55em;
+     padding: 20px;
+    display: block;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+#image img{
+    text-align: center;
+    display: block;
+    text-align: center;
+    max-width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.header h1 {
+    font-weight: 600;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items ul li {
+    padding: 15px 5px;
+    font-size: 18px;
+    text-align: justify;
+    color: #333333;
+}
+
+span {
+    color: #000000;
+    font-weight: 700;
+}
+
+.quote {
+    font-size: 18px;
+    color: #333333;
+}
+
+a {
+    color: #477CA7;
+}
+
+.last-text {
+    color: #000000;
+    font-size: 20px;
+    padding: 50px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:479px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html, body {
+        background-color: #EEEEEE;
+        display: flex;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+
+    .items ul{
+        padding: 15px 30px;
+    }
+
+    .items ul li {
+        padding: 15px 5px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .header h1 {
+        font-weight: 600;
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+
+    .header {
+        text-align: center;
+        padding: 20px;
+    }
+    
+}
+
