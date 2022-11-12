@@ -21,3 +21,8 @@ completed to get a responsive web development certificate from Freecodecamp.
 
 - [HTML](https://html.com/)
 - [CSS](https://www.w3schools.com/css/)
+
+## Contact
+
+- GitHub [@kinjames](https://github.com/kinjames)
+- Twitter [@TheBlackCoder7](https://twitter.com/TheBlackCoder7)
